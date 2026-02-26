@@ -18,7 +18,7 @@ genai.configure(api_key="AIzaSyAtMIyZSmbxfVYDGr-3o58XXYmQwGxXu-8")
 # ================================
 # 🚀 Load and Prepare Dataset
 # ================================
-df = pd.read_csv("/workspaces/AgroTechHub/DATA/Expanded_Crop_price.csv")
+df = pd.read_csv("DATA/Expanded_Crop_price.csv")
 
 # Ensure 'Price per kg' exists
 if 'Price per kg' not in df.columns:
