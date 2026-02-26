@@ -55,7 +55,7 @@ model.fit(X_train, y_train)
 
 # ================================
 # 🤖 Gemini API Setup
-from credentials import GEMINI_API_KEY
+
 
 # make sure you set GEMINI_API_KEY in credentials.py
 genai.configure(api_key="AIzaSyAtMIyZSmbxfVYDGr-3o58XXYmQwGxXu-8")  
