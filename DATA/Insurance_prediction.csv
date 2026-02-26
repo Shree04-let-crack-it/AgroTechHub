@@ -1,0 +1,360 @@
+Crop Type,Location,Rainfall (mm),Temperature (°C),Damage Type,Claim Amount ($),Claim Approval
+Rice,Punjab,1200,30,Flood,1500,Yes
+Wheat,Haryana,600,25,Drought,800,No
+Cotton,Maharashtra,800,35,Pest Infestation,1200,Yes
+Sugarcane,Uttar Pradesh,1500,32,Flood,2000,Yes
+Maize,Karnataka,900,28,Drought,900,No
+Pulses,Rajasthan,400,38,Drought,600,No
+Groundnut,Gujarat,700,36,Pest Infestation,1000,Yes
+Soybean,Madhya Pradesh,1000,27,Flood,1300,Yes
+Bajra,Tamil Nadu,500,34,Drought,700,No
+Mustard,West Bengal,1300,29,Flood,1600,Yes
+Rice,Bihar,1400,31,Flood,1700,Yes
+Wheat,Madhya Pradesh,550,26,Drought,750,No
+Cotton,Andhra Pradesh,850,34,Pest Infestation,1100,Yes
+Sugarcane,Tamil Nadu,1600,33,Flood,2100,Yes
+Maize,Rajasthan,950,29,Drought,950,No
+Pulses,Uttar Pradesh,350,37,Drought,550,No
+Groundnut,Maharashtra,750,35,Pest Infestation,1050,Yes
+Soybean,Karnataka,1050,28,Flood,1350,Yes
+Bajra,Gujarat,450,33,Drought,650,No
+Mustard,Punjab,1350,30,Flood,1650,Yes
+Rice,Haryana,1250,32,Flood,1550,Yes
+Wheat,Rajasthan,650,27,Drought,850,No
+Cotton,Madhya Pradesh,750,36,Pest Infestation,1250,Yes
+Sugarcane,Maharashtra,1550,31,Flood,2050,Yes
+Maize,Andhra Pradesh,850,26,Drought,850,No
+Pulses,Tamil Nadu,400,39,Drought,600,No
+Groundnut,Karnataka,650,34,Pest Infestation,950,Yes
+Soybean,Gujarat,950,29,Flood,1250,Yes
+Bajra,Uttar Pradesh,550,35,Drought,750,No
+Mustard,Bihar,1250,28,Flood,1550,Yes
+Rice,Andhra Pradesh,1150,29,Flood,1450,Yes
+Wheat,Tamil Nadu,500,24,Drought,700,No
+Cotton,Karnataka,900,33,Pest Infestation,1300,Yes
+Sugarcane,Gujarat,1600,30,Flood,2100,Yes
+Maize,Punjab,1000,27,Drought,1000,No
+Pulses,Haryana,450,36,Drought,650,No
+Groundnut,Rajasthan,750,34,Pest Infestation,1050,Yes
+Soybean,Uttar Pradesh,1050,25,Flood,1350,Yes
+Bajra,Maharashtra,550,32,Drought,750,No
+Mustard,Madhya Pradesh,1350,28,Flood,1650,Yes
+Rice,Gujarat,1450,33,Flood,1750,Yes
+Wheat,Punjab,550,25,Drought,750,No
+Cotton,Haryana,850,37,Pest Infestation,1250,Yes
+Sugarcane,Rajasthan,1550,30,Flood,2050,Yes
+Maize,Uttar Pradesh,950,26,Drought,950,No
+Pulses,Maharashtra,350,38,Drought,550,No
+Groundnut,Andhra Pradesh,650,33,Pest Infestation,950,Yes
+Soybean,Tamil Nadu,950,27,Flood,1250,Yes
+Bajra,Karnataka,450,31,Drought,650,No
+Mustard,Gujarat,1250,29,Flood,1550,Yes
+Rice,Rajasthan,1150,34,Flood,1450,Yes
+Wheat,Uttar Pradesh,600,26,Drought,800,No
+Cotton,Bihar,900,35,Pest Infestation,1300,Yes
+Sugarcane,Punjab,1600,31,Flood,2100,Yes
+Maize,Haryana,1000,28,Drought,1000,No
+Pulses,Madhya Pradesh,400,37,Drought,600,No
+Groundnut,Tamil Nadu,700,36,Pest Infestation,1000,Yes
+Soybean,Maharashtra,1000,27,Flood,1300,Yes
+Bajra,Andhra Pradesh,500,34,Drought,700,No
+Mustard,Karnataka,1300,29,Flood,1600,Yes
+Rice,Madhya Pradesh,1400,30,Flood,1700,Yes
+Wheat,Gujarat,550,25,Drought,750,No
+Cotton,Punjab,850,34,Pest Infestation,1100,Yes
+Sugarcane,Haryana,1600,33,Flood,2100,Yes
+Maize,Maharashtra,950,29,Drought,950,No
+Pulses,Andhra Pradesh,350,37,Drought,550,No
+Groundnut,Uttar Pradesh,750,35,Pest Infestation,1050,Yes
+Soybean,Bihar,1050,28,Flood,1350,Yes
+Bajra,Rajasthan,450,33,Drought,650,No
+Mustard,Tamil Nadu,1350,30,Flood,1650,Yes
+Rice,Karnataka,1250,32,Flood,1550,Yes
+Wheat,Andhra Pradesh,650,27,Drought,850,No
+Cotton,Uttar Pradesh,750,36,Pest Infestation,1250,Yes
+Sugarcane,Bihar,1550,31,Flood,2050,Yes
+Maize,Tamil Nadu,850,26,Drought,850,No
+Pulses,Karnataka,400,39,Drought,600,No
+Groundnut,Gujarat,650,34,Pest Infestation,950,Yes
+Soybean,Punjab,950,29,Flood,1250,Yes
+Bajra,Haryana,550,35,Drought,750,No
+Mustard,Rajasthan,1250,28,Flood,1550,Yes
+Rice,Uttar Pradesh,1150,29,Flood,1450,Yes
+Wheat,Bihar,500,24,Drought,700,No
+Cotton,Punjab,900,33,Pest Infestation,1300,Yes
+Sugarcane,Haryana,1600,30,Flood,2100,Yes
+Maize,Rajasthan,1000,27,Drought,1000,No
+Pulses,Uttar Pradesh,450,36,Drought,650,No
+Groundnut,Bihar,750,34,Pest Infestation,1050,Yes
+Soybean,Punjab,1050,25,Flood,1350,Yes
+Bajra,Haryana,550,32,Drought,750,No
+Mustard,Rajasthan,1350,28,Flood,1650,Yes
+Rice,Bihar,1450,33,Flood,1750,Yes
+Wheat,Punjab,550,25,Drought,750,No
+Cotton,Haryana,850,37,Pest Infestation,1250,Yes
+Sugarcane,Rajasthan,1550,30,Flood,2050,Yes
+Maize,Uttar Pradesh,950,26,Drought,950,No
+Pulses,Maharashtra,350,38,Drought,550,No
+Groundnut,Andhra Pradesh,650,33,Pest Infestation,950,Yes
+Soybean,Tamil Nadu,950,27,Flood,1250,Yes
+Bajra,Karnataka,450,31,Drought,650,No
+Mustard,Gujarat,1250,29,Flood,1550,Yes
+Rice,Rajasthan,1150,34,Flood,1450,Yes
+Wheat,Uttar Pradesh,600,26,Drought,800,No
+Cotton,Bihar,900,35,Pest Infestation,1300,Yes
+Sugarcane,Punjab,1600,31,Flood,2100,Yes
+Maize,Haryana,1000,28,Drought,1000,No
+Pulses,Madhya Pradesh,400,37,Drought,600,No
+Groundnut,Tamil Nadu,700,36,Pest Infestation,1000,Yes
+Soybean,Maharashtra,1000,27,Flood,1300,Yes
+Bajra,Andhra Pradesh,500,34,Drought,700,No
+Mustard,Karnataka,1300,29,Flood,1600,Yes
+Rice,Madhya Pradesh,1400,30,Flood,1700,Yes
+Wheat,Gujarat,550,25,Drought,750,No
+Cotton,Punjab,850,34,Pest Infestation,1100,Yes
+Sugarcane,Haryana,1600,33,Flood,2100,Yes
+Maize,Maharashtra,950,29,Drought,950,No
+Pulses,Andhra Pradesh,350,37,Drought,550,No
+Groundnut,Uttar Pradesh,750,35,Pest Infestation,1050,Yes
+Soybean,Bihar,1050,28,Flood,1350,Yes
+Bajra,Rajasthan,450,33,Drought,650,No
+Mustard,Tamil Nadu,1350,30,Flood,1650,Yes
+Rice,Karnataka,1250,32,Flood,1550,Yes
+Wheat,Andhra Pradesh,650,27,Drought,850,No
+Cotton,Uttar Pradesh,750,36,Pest Infestation,1250,Yes
+Sugarcane,Bihar,1550,31,Flood,2050,Yes
+Maize,Tamil Nadu,850,26,Drought,850,No
+Pulses,Karnataka,400,39,Drought,600,No
+Groundnut,Gujarat,650,34,Pest Infestation,950,Yes
+Soybean,Punjab,950,29,Flood,1250,Yes
+Bajra,Haryana,550,35,Drought,750,No
+Mustard,Rajasthan,1250,28,Flood,1550,Yes
+Rice,Uttar Pradesh,1150,29,Flood,1450,Yes
+Wheat,Bihar,500,24,Drought,700,No
+Cotton,Punjab,900,33,Pest Infestation,1300,Yes
+Sugarcane,Haryana,1600,30,Flood,2100,Yes
+Maize,Rajasthan,1000,27,Drought,1000,No
+Pulses,Uttar Pradesh,450,36,Drought,650,No
+Groundnut,Bihar,750,34,Pest Infestation,1050,Yes
+Soybean,Punjab,1050,25,Flood,1350,Yes
+Bajra,Haryana,550,32,Drought,750,No
+Mustard,Rajasthan,1350,28,Flood,1650,Yes
+Rice,Punjab,1200,30,Flood,1500,Yes
+Wheat,Haryana,600,25,Drought,800,No
+Cotton,Maharashtra,800,35,Pest Infestation,1200,Yes
+Sugarcane,Uttar Pradesh,1500,32,Flood,2000,Yes
+Maize,Karnataka,900,28,Drought,900,No
+Pulses,Rajasthan,400,38,Drought,600,No
+Groundnut,Gujarat,700,36,Pest Infestation,1000,Yes
+Soybean,Madhya Pradesh,1000,27,Flood,1300,Yes
+Bajra,Tamil Nadu,500,34,Drought,700,No
+Mustard,West Bengal,1300,29,Flood,1600,Yes
+Rice,Bihar,1400,31,Flood,1700,Yes
+Wheat,Madhya Pradesh,550,26,Drought,750,No
+Cotton,Andhra Pradesh,850,34,Pest Infestation,1100,Yes
+Sugarcane,Tamil Nadu,1600,33,Flood,2100,Yes
+Maize,Rajasthan,950,29,Drought,950,No
+Pulses,Uttar Pradesh,350,37,Drought,550,No
+Groundnut,Maharashtra,750,35,Pest Infestation,1050,Yes
+Soybean,Karnataka,1050,28,Flood,1350,Yes
+Bajra,Gujarat,450,33,Drought,650,No
+Mustard,Punjab,1350,30,Flood,1650,Yes
+Rice,Haryana,1250,32,Flood,1550,Yes
+Wheat,Rajasthan,650,27,Drought,850,No
+Cotton,Madhya Pradesh,750,36,Pest Infestation,1250,Yes
+Sugarcane,Maharashtra,1550,31,Flood,2050,Yes
+Maize,Andhra Pradesh,850,26,Drought,850,No
+Pulses,Tamil Nadu,400,39,Drought,600,No
+Groundnut,Karnataka,650,34,Pest Infestation,950,Yes
+Soybean,Gujarat,950,29,Flood,1250,Yes
+Bajra,Uttar Pradesh,550,35,Drought,750,No
+Mustard,Bihar,1250,28,Flood,1550,Yes
+Rice,Andhra Pradesh,1150,29,Flood,1450,Yes
+Wheat,Tamil Nadu,500,24,Drought,700,No
+Cotton,Karnataka,900,33,Pest Infestation,1300,Yes
+Sugarcane,Gujarat,1600,30,Flood,2100,Yes
+Maize,Punjab,1000,27,Drought,1000,No
+Pulses,Haryana,450,36,Drought,650,No
+Groundnut,Rajasthan,750,34,Pest Infestation,1050,Yes
+Soybean,Uttar Pradesh,1050,25,Flood,1350,Yes
+Bajra,Maharashtra,550,32,Drought,750,No
+Mustard,Madhya Pradesh,1350,28,Flood,1650,Yes
+Rice,Gujarat,1450,33,Flood,1750,Yes
+Wheat,Punjab,550,25,Drought,750,No
+Cotton,Haryana,850,37,Pest Infestation,1250,Yes
+Sugarcane,Rajasthan,1550,30,Flood,2050,Yes
+Maize,Uttar Pradesh,950,26,Drought,950,No
+Pulses,Maharashtra,350,38,Drought,550,No
+Groundnut,Andhra Pradesh,650,33,Pest Infestation,950,Yes
+Soybean,Tamil Nadu,950,27,Flood,1250,Yes
+Bajra,Karnataka,450,31,Drought,650,No
+Mustard,Gujarat,1250,29,Flood,1550,Yes
+Rice,Rajasthan,1150,34,Flood,1450,Yes
+Wheat,Uttar Pradesh,600,26,Drought,800,No
+Cotton,Bihar,900,35,Pest Infestation,1300,Yes
+Sugarcane,Punjab,1600,31,Flood,2100,Yes
+Maize,Haryana,1000,28,Drought,1000,No
+Pulses,Madhya Pradesh,400,37,Drought,600,No
+Groundnut,Tamil Nadu,700,36,Pest Infestation,1000,Yes
+Soybean,Maharashtra,1000,27,Flood,1300,Yes
+Bajra,Andhra Pradesh,500,34,Drought,700,No
+Mustard,Karnataka,1300,29,Flood,1600,Yes
+Rice,Madhya Pradesh,1400,30,Flood,1700,Yes
+Wheat,Gujarat,550,25,Drought,750,No
+Cotton,Punjab,850,34,Pest Infestation,1100,Yes
+Sugarcane,Haryana,1600,33,Flood,2100,Yes
+Maize,Maharashtra,950,29,Drought,950,No
+Pulses,Andhra Pradesh,350,37,Drought,550,No
+Groundnut,Uttar Pradesh,750,35,Pest Infestation,1050,Yes
+Soybean,Bihar,1050,28,Flood,1350,Yes
+Bajra,Rajasthan,450,33,Drought,650,No
+Mustard,Tamil Nadu,1350,30,Flood,1650,Yes
+Rice,Karnataka,1250,32,Flood,1550,Yes
+Wheat,Andhra Pradesh,650,27,Drought,850,No
+Cotton,Uttar Pradesh,750,36,Pest Infestation,1250,Yes
+Sugarcane,Bihar,1550,31,Flood,2050,Yes
+Maize,Tamil Nadu,850,26,Drought,850,No
+Pulses,Karnataka,400,39,Drought,600,No
+Groundnut,Gujarat,650,34,Pest Infestation,950,Yes
+Soybean,Punjab,950,29,Flood,1250,Yes
+Bajra,Haryana,550,35,Drought,750,No
+Mustard,Rajasthan,1250,28,Flood,1550,Yes
+Rice,Uttar Pradesh,1150,29,Flood,1450,Yes
+Wheat,Bihar,500,24,Drought,700,No
+Cotton,Punjab,900,33,Pest Infestation,1300,Yes
+Sugarcane,Haryana,1600,30,Flood,2100,Yes
+Maize,Rajasthan,1000,27,Drought,1000,No
+Pulses,Uttar Pradesh,450,36,Drought,650,No
+Groundnut,Bihar,750,34,Pest Infestation,1050,Yes
+Soybean,Punjab,1050,25,Flood,1350,Yes
+Bajra,Haryana,550,32,Drought,750,No
+Mustard,Rajasthan,1350,28,Flood,1650,Yes
+Rice,Punjab,1200,30,Flood,1500,Yes
+Wheat,Haryana,600,25,Drought,800,No
+Cotton,Maharashtra,800,35,Pest Infestation,1200,Yes
+Sugarcane,Uttar Pradesh,1500,32,Flood,2000,Yes
+Maize,Karnataka,900,28,Drought,900,No
+Pulses,Rajasthan,400,38,Drought,600,No
+Groundnut,Gujarat,700,36,Pest Infestation,1000,Yes
+Soybean,Madhya Pradesh,1000,27,Flood,1300,Yes
+Bajra,Tamil Nadu,500,34,Drought,700,No
+Mustard,West Bengal,1300,29,Flood,1600,Yes
+Rice,Bihar,1400,31,Flood,1700,Yes
+Wheat,Madhya Pradesh,550,26,Drought,750,No
+Cotton,Andhra Pradesh,850,34,Pest Infestation,1100,Yes
+Sugarcane,Tamil Nadu,1600,33,Flood,2100,Yes
+Maize,Rajasthan,950,29,Drought,950,No
+Pulses,Uttar Pradesh,350,37,Drought,550,No
+Groundnut,Maharashtra,750,35,Pest Infestation,1050,Yes
+Soybean,Karnataka,1050,28,Flood,1350,Yes
+Bajra,Gujarat,450,33,Drought,650,No
+Mustard,Punjab,1350,30,Flood,1650,Yes
+Rice,Haryana,1250,32,Flood,1550,Yes
+Wheat,Rajasthan,650,27,Drought,850,No
+Cotton,Madhya Pradesh,750,36,Pest Infestation,1250,Yes
+Sugarcane,Maharashtra,1550,31,Flood,2050,Yes
+Maize,Andhra Pradesh,850,26,Drought,850,No
+Pulses,Tamil Nadu,400,39,Drought,600,No
+Groundnut,Karnataka,650,34,Pest Infestation,950,Yes
+Soybean,Gujarat,950,29,Flood,1250,Yes
+Bajra,Uttar Pradesh,550,35,Drought,750,No
+Mustard,Bihar,1250,28,Flood,1550,Yes
+Rice,Andhra Pradesh,1150,29,Flood,1450,Yes
+Wheat,Tamil Nadu,500,24,Drought,700,No
+Cotton,Karnataka,900,33,Pest Infestation,1300,Yes
+Sugarcane,Gujarat,1600,30,Flood,2100,Yes
+Maize,Punjab,1000,27,Drought,1000,No
+Pulses,Haryana,450,36,Drought,650,No
+Groundnut,Rajasthan,750,34,Pest Infestation,1050,Yes
+Soybean,Uttar Pradesh,1050,25,Flood,1350,Yes
+Bajra,Maharashtra,550,32,Drought,750,No
+Mustard,Madhya Pradesh,1350,28,Flood,1650,Yes
+Rice,Gujarat,1450,33,Flood,1750,Yes
+Wheat,Punjab,550,25,Drought,750,No
+Cotton,Haryana,850,37,Pest Infestation,1250,Yes
+Sugarcane,Rajasthan,1550,30,Flood,2050,Yes
+Maize,Uttar Pradesh,950,26,Drought,950,No
+Pulses,Maharashtra,350,38,Drought,550,No
+Groundnut,Andhra Pradesh,650,33,Pest Infestation,950,Yes
+Soybean,Tamil Nadu,950,27,Flood,1250,Yes
+Bajra,Karnataka,450,31,Drought,650,No
+Mustard,Gujarat,1250,29,Flood,1550,Yes
+Rice,Rajasthan,1150,34,Flood,1450,Yes
+Wheat,Uttar Pradesh,600,26,Drought,800,No
+Cotton,Bihar,900,35,Pest Infestation,1300,Yes
+Sugarcane,Punjab,1600,31,Flood,2100,Yes
+Maize,Haryana,1000,28,Drought,1000,No
+Pulses,Madhya Pradesh,400,37,Drought,600,No
+Groundnut,Tamil Nadu,700,36,Pest Infestation,1000,Yes
+Soybean,Maharashtra,1000,27,Flood,1300,Yes
+Bajra,Andhra Pradesh,500,34,Drought,700,No
+Mustard,Karnataka,1300,29,Flood,1600,Yes
+Rice,Madhya Pradesh,1400,30,Flood,1700,Yes
+Wheat,Gujarat,550,25,Drought,750,No
+Cotton,Punjab,850,34,Pest Infestation,1100,Yes
+Sugarcane,Haryana,1600,33,Flood,2100,Yes
+Maize,Maharashtra,950,29,Drought,950,No
+Pulses,Andhra Pradesh,350,37,Drought,550,No
+Groundnut,Uttar Pradesh,750,35,Pest Infestation,1050,Yes
+Soybean,Bihar,1050,28,Flood,1350,Yes
+Bajra,Rajasthan,450,33,Drought,650,No
+Mustard,Tamil Nadu,1350,30,Flood,1650,Yes
+Rice,Karnataka,1250,32,Flood,1550,Yes
+Wheat,Andhra Pradesh,650,27,Drought,850,No
+Cotton,Uttar Pradesh,750,36,Pest Infestation,1250,Yes
+Sugarcane,Bihar,1550,31,Flood,2050,Yes
+Maize,Tamil Nadu,850,26,Drought,850,No
+Pulses,Karnataka,400,39,Drought,600,No
+Groundnut,Gujarat,650,34,Pest Infestation,950,Yes
+Soybean,Punjab,950,29,Flood,1250,Yes
+Bajra,Haryana,550,35,Drought,750,No
+Mustard,Rajasthan,1250,28,Flood,1550,Yes
+Rice,Uttar Pradesh,1150,29,Flood,1450,Yes
+Wheat,Bihar,500,24,Drought,700,No
+Cotton,Punjab,900,33,Pest Infestation,1300,Yes
+Sugarcane,Haryana,1600,30,Flood,2100,Yes
+Maize,Rajasthan,1000,27,Drought,1000,No
+Pulses,Uttar Pradesh,450,36,Drought,650,No
+Groundnut,Bihar,750,34,Pest Infestation,1050,Yes
+Soybean,Punjab,1050,25,Flood,1350,Yes
+Bajra,Haryana,550,32,Drought,750,No
+Mustard,Rajasthan,1350,28,Flood,1650,Yes
+Rice,Punjab,1200,30,Flood,1500,Yes
+Wheat,Haryana,600,25,Drought,800,No
+Cotton,Maharashtra,800,35,Pest Infestation,1200,Yes
+Sugarcane,Uttar Pradesh,1500,32,Flood,2000,Yes
+Maize,Karnataka,900,28,Drought,900,No
+Pulses,Rajasthan,400,38,Drought,600,No
+Groundnut,Gujarat,700,36,Pest Infestation,1000,Yes
+Soybean,Madhya Pradesh,1000,27,Flood,1300,Yes
+Bajra,Tamil Nadu,500,34,Drought,700,No
+Mustard,West Bengal,1300,29,Flood,1600,Yes
+Rice,Bihar,1400,31,Flood,1700,Yes
+Wheat,Madhya Pradesh,550,26,Drought,750,No
+Cotton,Andhra Pradesh,850,34,Pest Infestation,1100,Yes
+Sugarcane,Tamil Nadu,1600,33,Flood,2100,Yes
+Maize,Rajasthan,950,29,Drought,950,No
+Pulses,Uttar Pradesh,350,37,Drought,550,No
+Groundnut,Maharashtra,750,35,Pest Infestation,1050,Yes
+Soybean,Karnataka,1050,28,Flood,1350,Yes
+Bajra,Gujarat,450,33,Drought,650,No
+Mustard,Punjab,1350,30,Flood,1650,Yes
+Rice,Haryana,1250,32,Flood,1550,Yes
+Wheat,Rajasthan,650,27,Drought,850,No
+Cotton,Madhya Pradesh,750,36,Pest Infestation,1250,Yes
+Sugarcane,Maharashtra,1550,31,Flood,2050,Yes
+Maize,Andhra Pradesh,850,26,Drought,850,No
+Pulses,Tamil Nadu,400,39,Drought,600,No
+Groundnut,Karnataka,650,34,Pest Infestation,950,Yes
+Soybean,Gujarat,950,29,Flood,1250,Yes
+Bajra,Uttar Pradesh,550,35,Drought,750,No
+Mustard,Bihar,1250,28,Flood,1550,Yes
+Rice,Andhra Pradesh,1150,29,Flood,1450,Yes
+Wheat,Tamil Nadu,500,24,Drought,700,No
+Cotton,Karnataka,900,33,Pest Infestation,1300,Yes
+Sugarcane,Gujarat,1600,30,Flood,2100,Yes
+Maize,Punjab,1000,27,Drought,1000,No
+Pulses,Haryana,450,36,Drought,650,No
+Groundnut,Rajasthan,750,34,Pest Infestation,1050,Yes
+Soybean,Uttar Pradesh,1050,25,Flood,1350,Yes
+Bajra,Maharashtra,550,32,Drought,750,No
