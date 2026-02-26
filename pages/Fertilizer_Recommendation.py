@@ -3,10 +3,10 @@ import pickle
 import google.generativeai as genai
 
 # 🎯 Configure Gemini API Key (Replace with your actual API key)
-from credentials import GEMINI_API_KEY
+
 
 # make sure you set GEMINI_API_KEY in credentials.py
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key="AIzaSyAumH1szAgvZbc7M6oqxIRqELE-gT0JACo")
 
 # 🌾 Available Crop Types (Dropdown options)
 crop_types = [
