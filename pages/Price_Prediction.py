@@ -11,13 +11,15 @@ import google.generativeai as genai
 # ================================
 # 🚀 Configure Google Gemini API
 # ================================
-GEMINI_API_KEY = "AIzaSyDMFdeC5sxov55qvRGce9Rc5RiHr2jLqOM"  # Add your API Key
+from credentials import GEMINI_API_KEY
+
+# make sure you set GEMINI_API_KEY in credentials.py
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ================================
 # 🚀 Load and Prepare Dataset
 # ================================
-df = pd.read_csv("DATA\Expanded_Crop_price.csv")
+df = pd.read_csv("/workspaces/AgroTechHub/DATA/Expanded_Crop_price.csv")
 
 # Ensure 'Price per kg' exists
 if 'Price per kg' not in df.columns:

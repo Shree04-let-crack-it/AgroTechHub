@@ -41,12 +41,15 @@ def set_background(image_file):
     st.markdown(page_bg, unsafe_allow_html=True)
 
 # 🔥 Set background image
-set_background("pages\yeildBAckgroung.jpg")
+set_background("/workspaces/AgroTechHub/pages/CropRback.avif")
 
 # ==============================
 # 🔐 Initialize Gemini AI (SAFE)
 # ==============================
-genai.configure(api_key=os.getenv("AIzaSyDMFdeC5sxov55qvRGce9Rc5RiHr2jLqOM"))
+from credentials import GEMINI_API_KEY
+
+# make sure you set GEMINI_API_KEY in credentials.py
+genai.configure(api_key=GEMINI_API_KEY)
 
 def ask_gemini(question):
     try:
