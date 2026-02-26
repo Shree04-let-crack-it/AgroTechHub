@@ -41,7 +41,7 @@ def set_background(image_file):
     st.markdown(page_bg, unsafe_allow_html=True)
 
 # 🔥 Set background image
-set_background("/workspaces/AgroTechHub/pages/CropRback.avif")
+set_background("pages/yeildBAckgroung.jpg")
 
 # ==============================
 # 🔐 Initialize Gemini AI (SAFE)
