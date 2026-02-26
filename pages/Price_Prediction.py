@@ -14,7 +14,7 @@ import google.generativeai as genai
 
 
 # make sure you set GEMINI_API_KEY in credentials.py
-genai.configure(api_key="AIzaSyAumH1szAgvZbc7M6oqxIRqELE-gT0JACo")
+genai.configure(api_key="AIzaSyAtMIyZSmbxfVYDGr-3o58XXYmQwGxXu-8")
 # ================================
 # 🚀 Load and Prepare Dataset
 # ================================

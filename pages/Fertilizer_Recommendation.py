@@ -1,25 +1,10 @@
 import streamlit as st
 import pickle
 import google.generativeai as genai
-import os
-from google.api_core import exceptions
-import time
 
-# 🎯 Configure Gemini API Key
-# Try to get API key from environment, then credentials.py, then streamlit secrets
-api_key = os.getenv("AIzaSyAumH1szAgvZbc7M6oqxIRqELE-gT0JACo")
-if not api_key:
-    try:
-        from credentials import GEMINI_API_KEY
-        api_key = GEMINI_API_KEY
-    except ImportError:
-        api_key = st.secrets.get("GEMINI_API_KEY", None)
-
-if not api_key:
-    st.error("❌ Gemini API key not configured. Please set GEMINI_API_KEY environment variable or in credentials.py")
-    st.stop()
-
-genai.configure(api_key=api_key)
+# 🎯 Configure Gemini API Key (Replace with your actual API key)
+GEMINI_API_KEY = "AIzaSyAtMIyZSmbxfVYDGr-3o58XXYmQwGxXu-8"  # Add your API key here
+genai.configure(api_key=GEMINI_API_KEY)
 
 # 🌾 Available Crop Types (Dropdown options)
 crop_types = [
@@ -60,8 +45,8 @@ language = st.selectbox("🌍 Select Insight Language", languages)
 # ================================
 # 🚀 Gemini AI Fertilizer Recommendation
 # ================================
-def get_fertilizer_recommendation(crop, nitrogen, phosphorus, potassium, ph, language):
-    """Queries Gemini AI for fertilizer recommendation with error handling and retry logic."""
+def get_fertilizer_recommendation(crop, nitrogen, phosphorus, potassium, ph,language):
+    """Queries Gemini AI for fertilizer recommendation."""
     prompt = (
         f"Crop: {crop}\n"
         f"Soil Nitrogen (N): {nitrogen}\n"
@@ -72,37 +57,9 @@ def get_fertilizer_recommendation(crop, nitrogen, phosphorus, potassium, ph, lan
         f"Provide the recommendation in {language}."
     )
 
-    max_retries = 3
-    retry_delay = 1  # seconds
-    
-    for attempt in range(max_retries):
-        try:
-            model = genai.GenerativeModel("gemini-1.5-flash")  # Using Gemini 1.5 Flash model
-            response = model.generate_content(prompt)
-            return response.text if response else "No recommendation received."
-        except exceptions.ResourceExhausted:
-            if attempt < max_retries - 1:
-                wait_time = retry_delay * (2 ** attempt)  # Exponential backoff
-                st.warning(f"⏳ API quota exceeded. Retrying in {wait_time}s... (Attempt {attempt + 1}/{max_retries})")
-                time.sleep(wait_time)
-            else:
-                return "❌ API quota exceeded. Please try again later."
-        except exceptions.Unauthenticated:
-            return "❌ Authentication failed. Please check your API key."
-        except exceptions.PermissionDenied:
-            return "❌ Permission denied. Your API key may not have access to this model."
-        except exceptions.DeadlineExceeded:
-            if attempt < max_retries - 1:
-                st.warning(f"⏳ Request timeout. Retrying... (Attempt {attempt + 1}/{max_retries})")
-                time.sleep(retry_delay)
-            else:
-                return "❌ Request timeout. Please try again."
-        except exceptions.GoogleAPIError as e:
-            return f"❌ API Error: {str(e)}"
-        except Exception as e:
-            return f"❌ Unexpected error: {str(e)}"
-    
-    return "❌ Failed to get recommendation after multiple attempts."
+    model = genai.GenerativeModel("gemini-2.5-flash")  # Using Gemini AI for predictions
+    response = model.generate_content(prompt)
+    return response.text if response else "No recommendation received."
 
 # 📌 Generate Recommendation Button
 if st.button("📊 Get Fertilizer Recommendation"):
